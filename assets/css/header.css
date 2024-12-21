@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'neue machina';
-    src: url('/assets/fonts/NeueMachina-Regular.otf');
+    src: url('assets/fonts/NeueMachina-Regular.otf');
 }
 
 
@@ -53,9 +53,9 @@
     height: 1.5rem;
     background-color: rgb(67, 150, 199);
     /* Define a cor */
-    -webkit-mask: url('/assets/img/icons/whats\ app.svg') no-repeat center;
+    -webkit-mask: url('assets/img/icons/whats\ app.svg') no-repeat center;
     -webkit-mask-size: cover;
-    mask: url('/assets/img/icons/whats\ app.svg') no-repeat center;
+    mask: url('assets/img/icons/whats\ app.svg') no-repeat center;
     mask-size: cover;
 
 }
@@ -65,20 +65,20 @@
 }
 
 .information #user::before {
-    mask: url('/assets/img/icons/account.svg') no-repeat center;
+    mask: url('assets/img/icons/account.svg') no-repeat center;
 
 }
 
 .information #location::before {
-    mask: url('/assets/img/icons/map-marker.svg') no-repeat center;
+    mask: url('assets/img/icons/map-marker.svg') no-repeat center;
 }
 
 .information #phone::before {
-    mask: url('/assets/img/icons/whats\ app.svg') no-repeat center;
+    mask: url('assets/img/icons/whats\ app.svg') no-repeat center;
 }
 
 .information #mail::before {
-    mask: url('/assets/img/icons/email.svg') no-repeat center;
+    mask: url('assets/img/icons/email.svg') no-repeat center;
 }
 
 .header::after {
@@ -88,7 +88,7 @@
     height: 2.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/dots.svg');
+    background-image: url('assets/img/icons/dots.svg');
     position: absolute;
     right: 1rem;
     top: 0rem;
@@ -151,7 +151,7 @@
         height: 3rem;
         background-repeat: no-repeat;
         background-size: contain;
-        background-image: url('/assets/img/icons/dots.svg');
+        background-image: url('assets/img/icons/dots.svg');
         position: absolute;
         right: 0.8rem;
         top: 0rem;
